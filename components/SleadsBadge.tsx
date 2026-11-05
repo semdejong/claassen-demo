@@ -6,9 +6,9 @@ export default function SleadsBadge() {
       target="_blank"
       rel="noopener"
       aria-label="Concept door Sleads – bekijk sleads.nl"
-      className="fixed bottom-3 left-3 z-50 inline-flex items-center gap-1.5 rounded-full border border-black/10 bg-white/85 px-3 py-1.5 text-[11px] font-medium text-neutral-700 shadow-sm backdrop-blur transition hover:bg-white hover:text-black sm:bottom-4 sm:left-4 sm:text-xs print:hidden"
+      className="no-print mt-4 mb-24 ml-5 inline-flex min-h-11 w-fit items-center gap-2 border border-brand/25 bg-paper px-3 text-[0.8125rem] font-medium text-foreground lg:mt-2 lg:mb-8 lg:ml-[max(1.25rem,calc((100%-72rem)/2+1.25rem))] print:hidden"
     >
-      <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" aria-hidden />
+      <span className="h-2 w-2 bg-accent" aria-hidden />
       Concept door <span className="font-semibold">Sleads</span>
     </a>
   );
